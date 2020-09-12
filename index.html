@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <h1>
+      Rock paper scissor game 🚀
+    </h1>
+
+    <label
+      >Type your choice:
+      <input id="user-choice" placeholder="Scissors, Rock, Paper"
+    /></label>
+    <hr />
+    <div style="display: none;">
+      Computer chose: <span id="computer-choice"></span>
+      <p id="result"></p>
+      <p>
+        Score 🏆: player score = <span id="player-score"></span
+        >
+        computer score = <span id="computer-score"></span>
+      </p>
+    </div>
+    <button id="play">Play</button>
+    <button id= "reset">Reset </button>
+    <script src="src/game.js"></script>
+  </body>
+</html>
